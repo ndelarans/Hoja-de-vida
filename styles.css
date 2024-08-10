@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cuadro {
+    width: auto;
+    margin: 30px 100px;
+    height: auto;
+    border: 2px solid black;
+    background-color: white;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    position: relative; 
+    background-image: url('imagenes/fondo-transformed.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.profile-img {
+    position: absolute; 
+    top: 20px;
+    right: 20px; 
+    width: 100px;
+    height: 80px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #fff; 
+}
+
+.header-content {
+    margin-top: 100px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+blockquote {
+    margin-top: 20px;
+    font-size: 16px;
+    border-left: 4px solid #4a4a4a;
+    padding-left: 15px;
+    font-style: italic;
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-icon {
+    width: 24px;
+    height: 24px;
+}
+section {
+    margin: 20px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+.skills-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.skills-header svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.skills-list {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.skills-list li {
+    color: black; 
+}
+
+.skills-list li strong {
+    color: blue; 
+}
+
+
+.book-header {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.book-header svg {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    stroke: black;
+}
+
+.school-container {
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+
+footer {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #cccccc;
+    margin: 20px 0;
+}
+.education-header {
+    display: flex;
+    align-items: center;
+}
+.education-header svg {
+    margin-right: 8px;
+}
+section {
+    margin: 20px;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 5px; 
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.social-media a {
+    color: black; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px; 
+}
